@@ -1,3 +1,27 @@
+## wvsc_blob.bin
+
+```
+╰─$ file wvsc_blob.bin
+wvsc_blob.bin: data
+
+╰─$ binwalk wvsc_blob.bin
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+36            0x24            Zlib compressed data, default compression
+10756         0x2A04          Zlib compressed data, default compression
+11476         0x2CD4          Zlib compressed data, default compression
+13348         0x3424          Zlib compressed data, default compression
+14196         0x3774          Zlib compressed data, default compression
+```
+## Protocol Buffers are Google’s data interchange format
+
+`pip install protobuf`
+
+https://pypi.org/project/protobuf/
+
+
+
 # awvs-decode
 AWVS一直以来在圈子中都比较火，以速度快和高准确性深受大家喜爱。很多人想研究其运作机制却因闭源而不得其解。
 
