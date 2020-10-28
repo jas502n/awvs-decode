@@ -20,6 +20,16 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 
 https://pypi.org/project/protobuf/
 
+#### Protocol buffers library for Python 3
+
+`pip install protobuf3`
+
+`brew install protobuf`
+
+该项目的最初想法是在原始协议缓冲区 实现中缺乏对Python 3的支持。目前Google正在研究此问题，但目前尚无简便方法可在Python 3中使用它。
+
+https://pypi.org/project/protobuf3/
+
 
 
 # awvs-decode
